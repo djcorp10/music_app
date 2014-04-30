@@ -4,7 +4,6 @@ class CreateArtists < ActiveRecord::Migration
       t.string :name
       t.integer :_genre_id
 
-      t.timestamps
     end
   end
 end
